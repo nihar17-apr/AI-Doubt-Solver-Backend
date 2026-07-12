@@ -1,0 +1,19 @@
+package com.nihar.backend.service.ai;
+
+import java.util.List;
+
+public class GroqResponse {
+
+    private List<GroqChoice> choices;
+
+    public GroqResponse() {
+    }
+
+    public List<GroqChoice> getChoices() {
+        return choices;
+    }
+
+    public void setChoices(List<GroqChoice> choices) {
+        this.choices = choices;
+    }
+}
